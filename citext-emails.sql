@@ -35,6 +35,6 @@ select * from citext_emails where email like '%donaghy%';
 -- ----+----------------------
 --   3 | JACK_DONAGHY@NBC.COM
 
---insert into citext_emails (email) values ('KENNETHparcell@nbc.COM');
+insert into citext_emails (email) values ('KENNETHparcell@nbc.COM');
 -- ERROR:  duplicate key value violates unique constraint "citext_emails_email_key"
 -- DETAIL:  Key (email)=(KENNETHparcell@nbc.COM) already exists.
