@@ -30,7 +30,7 @@ select * from citext_emails where email = 'lizlemon@nbc.com';
 -- ----+------------------
 --   1 | LizLemon@nbc.com
 
-select * from citext_emails where email ilike '%donaghy%';
+select * from citext_emails where email like '%donaghy%';
 --  id |        email
 -- ----+----------------------
 --   3 | JACK_DONAGHY@NBC.COM
