@@ -8,10 +8,10 @@ create table nullable_fields (
   last varchar
 );
 
-insert into nullable_fields (first, last) values ('Bob', 'Burgers');
-insert into nullable_fields (first) values ('Gene');
-insert into nullable_fields (first, last) values ('', 'Dijkstra')
-insert into nullable_fields (last) values ('MacGyver');
+insert into nullable_fields (first, last) values ('John', 'McCarthy');
+insert into nullable_fields (first) values ('Ada');
+insert into nullable_fields (first, last) values ('', 'Dijkstra');
+insert into nullable_fields (last) values ('Curry');
 
 table nullable_fields;
 
